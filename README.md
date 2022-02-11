@@ -1,2 +1,2 @@
 # presentations
-My presentations built in Rmd and Qmd
+My presentations built using Rmd and Qmd
