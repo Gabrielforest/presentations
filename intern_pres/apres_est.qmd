@@ -1,0 +1,91 @@
+---
+title: "Estágio em Ciência de Dados"
+author: "Gabriel de Freitas Pereira"
+format:
+  beamer:
+    theme: "Warsaw"
+    toc: false
+    number-sections: true
+header-includes:
+ \AtBeginSection{}
+ \AtBeginSubsection{}
+---
+
+# Introdução
+
+## Programação
+
+---
+
+- Motivações:
+
+  - Iniciação científica - FAPESP
+
+  - Interesse em visualização de dados 
+  
+---
+
+- Uso da plataforma GitHub; [\color{blue}alguns resultados IC](https://gabrielforest.github.io/maps_grid/):
+
+![Mapa de adequabilidade da castanheira - 2050](amazon_nut_maps.PNG)
+
+## Oppen Social
+
+---
+
+
+```{r echo = FALSE, fig.align = 'center', out.width= '30%'}
+knitr::include_graphics("oppen_social_logo.PNG")
+```
+
+\  
+
+- Atuação da Oppen com clientes:
+
+  - Cocriação
+
+  - Transformação
+
+  - Criação de métricas
+
+# Oppen Social  
+
+## Atuação na Oppen
+
+---
+
+- Cálculo de indicadores socioeconômicos
+
+- Implementação de testes unitários
+
+- Gestão de código fonte 
+
+- Grupo de estudo de ML
+
+- Participação em Hackathon
+
+---
+
+- Participação em eventos de programação; [\color{blue}Hackathon](https://gabrielforest.github.io/hackathon_/):
+
+![Dashboard gerado no desafio - Hackathon](hackathon_page.PNG)
+
+# chesteR
+
+## Grupo de estudos
+
+---
+
+- Compartilhando o conhecimento:
+
+::: {#fig-logos layout-ncol=2}
+
+![Centro Acadêmico](caef.png){#fig-caef}
+
+![Grupo de Estudos](logo_chesteR.png){#fig-logo_chesteR}
+
+Logos
+:::
+
+
+
