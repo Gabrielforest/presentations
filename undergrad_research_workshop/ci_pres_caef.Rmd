@@ -223,6 +223,3 @@ knitr::include_graphics("slide_images/agradecimentos.PNG")
 
 
 
-
-
-
