@@ -1,0 +1,608 @@
+---
+title: "Manejo de Nativas - Algaroba"
+institute: UFSCar
+author: "Bruno G., Gabriel F., Leonardo K., Rafael B."
+date: "06/03/2022"
+output:
+  beamer_presentation:
+    incremental: false
+    theme: "Warsaw"
+    slide_level: 3   # number of section titles
+header-includes:
+- \AtBeginSection{}
+- \AtBeginSubsection{}
+---
+
+
+# Introdução
+
+## Histórico
+
+---
+
+* Leguminosa nativa de regiões áridas;
+
+* Ocupa, hoje, cerca de 500 mil hectares do semiárido nordestino;
+
+* Vagem: alimento para animais e maneira de 
+propagação da espécie;
+
+* Problemática: espécie com alto potencial invasor;
+
+* Manejo de Espécies Invasoras: importante para o controle da perda de biodiversidade;
+
+---
+
+* Área de ocorrência no nordeste
+
+```{r echo=FALSE, fig.align='center', out.width='55%'}
+knitr::include_graphics(path = "area_ocorrencia.jpg")
+```      
+
+\center {\scriptsize {\color{blue}Figura 1}: EMBRAPA Semi-Árido} 
+
+---
+
+
+* Contexto de criação extensiva de animais;
+
+* Potencial forrageiro, possibilitando uma
+alimentação mais nutritiva;
+
+* 1946: resultados positivos com a implementação
+de Algarobais impulsionaram o plantio de mudas
+da espécie;
+
+* Pesquisas pioneiras indicaram um potencial para
+produção de madeira de lei de qualidade, além de
+possuir enorme capacidade de resistência à seca;
+
+
+```{r echo=FALSE, fig.align='center', out.width='30%'}
+knitr::include_graphics(path = "86_96.jpg")
+```      
+
+\center {\scriptsize {\color{blue}Figura 2}: EMBRAPA Semi-Árido} 
+
+
+## Descrição da Espécie
+
+---
+
+* Xerófita;
+
+* Raízes profundas;
+
+* Pivotantes e laterais;
+
+* Folhas compostas (bipinadas);
+
+* Fruto tipo vagem;
+
+* Floração e Frutificação nos meses de 
+set. a nov.
+
+```{r echo=FALSE, fig.align='center', out.width='60%'}
+knitr::include_graphics(path = "abc.jpg")
+```      
+
+\center {\scriptsize {\color{blue}Figura 3}: a)Vagens; b)sementes; c)inflorescências. Fotos: Clóvis Eduardo de Souza Nascimento.} 
+
+
+# Plano de Manejo Florestal
+
+## Manejo Florestal
+
+---
+
+* Pernambuco
+
+
+     - CPRH Agência Estadual de Meio Ambiente 
+
+     - Instrução Normativa nº 007 de 29 de dezembro de 2006
+  
+```{r echo=FALSE, fig.align='center', out.width='40%'}
+knitr::include_graphics(path = "cprh.jpg")
+```      
+
+\center {\scriptsize {\color{blue}Figura 4}: cprh.pe.gov.br} 
+
+### Reserva Legal
+     
+     
+* Mínimo de 20% de cada propriedade ou posse rural
+
+
+* Pode computar as áreas de APP nas de Reserva Legal?
+  
+    
+    - APP + Reserva Legal exceder em 50% da área total
+    - Não implica em conversão de novas áreas para uso
+
+
+* Pode ser explorada?
+
+    
+    * Uso doméstico 
+    * Construção na propriedade rural
+    * Catação
+    * Corte seletivo mediante Informação de Corte
+
+--- 
+
+* Áreas de Preservação Permanente
+
+```{r echo=FALSE, fig.align='center', out.width='70%'}
+knitr::include_graphics(path = "app_margem_rios.jpg")
+```      
+
+\center {\scriptsize {\color{blue}Figura 5}: fonte CI Florestas} 
+
+---
+
+```{r echo=FALSE, fig.align='center', out.width='70%'}
+knitr::include_graphics(path = "50m_raio.jpg")
+```      
+
+\center {\scriptsize {\color{blue}Figura 6}: fonte Cartilha do Código Florestal Brasileiro} 
+
+---
+
+* Reservatório de geração de energia elétrica com até 10 ha: faixa de 15 m, sem prejuízo da compensação ambiental
+
+```{r echo=FALSE, fig.align='center', out.width='80%'}
+knitr::include_graphics(path = "rural_urbana.jpg")
+```      
+
+\center {\scriptsize {\color{blue}Figura 7}: fonte INEA} 
+
+---
+
+```{r echo=FALSE, fig.align='center', out.width='85%'}
+knitr::include_graphics(path = "app_app.jpg")
+```      
+
+\center {\scriptsize {\color{blue}Figura 8}: fonte SIGAM/SIMA} 
+
+---
+
+```{r echo=FALSE, fig.align='center', out.width='100%'}
+knitr::include_graphics(path = "1_3h.jpg")
+```      
+
+\center {\scriptsize {\color{blue}Figura 9}: www.artedeproduziragua.com.br} 
+
+---
+
+```{r echo=FALSE, fig.align='center', out.width='100%'}
+knitr::include_graphics(path = "linha_cumeada.jpg")
+```      
+
+\center {\scriptsize {\color{blue}Figura 10}: Nowatzki et al.,2010} 
+
+---
+
+```{r echo=FALSE, fig.align='center', out.width='70%'}
+knitr::include_graphics(path = "app_encosta.jpg")
+```      
+
+\center {\scriptsize {\color{blue}Figura 11}: Bedê, 2013} 
+
+---
+
+
+```{r echo=FALSE, fig.align='center', out.width='70%'}
+knitr::include_graphics(path = "app_em_borda_tabuleiro.jpg")
+```      
+
+\center {\scriptsize {\color{blue}Figura 12}: Bedê, 2013} 
+
+---
+
+* Em ilha, na faixa marginal, medida horizontalmente, respeitando a largura mínima de preservação permanente exigida para o corpo d'água;
+
+* Nas restingas:
+    
+    
+    - em faixa mínima de 300 metros, medidos a partir da linha de preamar máxima;
+    - em qualquer localização ou extensão, quando recoberta por vegetação 
+    - com função fixadora de dunas ou estabilizadora de mangues;
+
+* Em manguezal, em toda a sua extensão;
+
+* Em duna;
+
+---
+
+* Em altitude superior a 750 metros;
+
+* Nos locais de refúgio ou reprodução de aves migratórias;
+
+* Nos locais de refúgio ou reprodução de exemplares da fauna ameaçadas de extinção
+
+* Nas praias, em locais de nidificação e reprodução da fauna silvestre;
+
+* Nas águas estuarinas que ficam sob regime de maré.
+
+
+## Modalidades de Planos de Manejo
+
+---
+
+* Plano de Manejo Florestal Sustentável
+  
+  
+    - Acima de 150 hectares
+    - Regime de rendimento sustentável. 
+
+* Plano de Manejo Florestal Simplificado 
+
+
+    - 50 hectares até 150 hectares
+    - Talhões anuais, de acordo com o ciclo de corte.
+
+
+* Plano de Manejo Florestal Simplificado-Simultâneo 
+
+    
+    - Até 50 hectares 
+    - Uma só vez em toda a área, retornando-se à mesma após o fechamento do ciclo de corte.
+
+
+## Procedimentos
+
+---
+
+* Vistoria prévia e autorização da CPRH (Requerimento Padrão de Atividade Florestal)
+
+* Documentação pessoal do requerente
+
+* Comprovação de propriedade ou posse da terra
+
+* Certificado de Averbação da Área de Reserva Legal
+
+* Declaração do proprietário do imóvel, nos casos de posse, concordando com a atividade requerida
+
+
+---
+
+
+* Apresentar planta com grade georreferenciada do imóvel com coordenadas UTM, e Datum SAD 69
+
+* Croqui de acesso e localização do imóvel, a partir do município mais próximo;
+
+* Plano de Manejo Sustentável
+
+* Anotação de Responsabilidade Técnica (ART) do profissional habilitado para a elaboração e execução do projeto
+
+* Termo de Compromisso de Averbação do Plano de Manejo
+
+
+### Roteiro para elaboração de plano de manejo florestal sustentável 
+
+* Identificação do proprietário 
+
+* Objetivos e Metas do Plano de Manejo
+
+* Justificativas
+
+* Uso atual do solo e Caracterização do meio
+
+* Inventário Florestal e Cubagem
+
+* Sistema de Amostragem
+
+---
+
+Estoque atual
+  
+* Até 150 hectares 
+
+
+    - erro de amostragem de 20% para o volume real, com 90% de probabilidade tamanho mínimo para as parcelas será de 400 m²
+
+* Acima de 150 hectares 
+
+
+    - erro de amostragem de 20% para o volume real total, com 90% de probabilidade.
+
+* Incremento Médio Anual; 
+* Regeneração das espécies a ser manejadas; 
+* Restrições ao Corte; 
+* Intensidade de Corte;
+
+---
+
+* Produção esperada
+
+* Ciclo e Modalidade de Corte; 
+
+* Técnicas de Exploração; 
+
+* Talhonamento; 
+
+* Infraestrutura; 
+
+* Monitoramento;
+
+---
+
+
+* Impactos ambientais e medidas mitigadoras; 
+
+* Viabilidade econômica; 
+
+* Fórmulas, Memória de cálculo e Análise estatística; 
+
+* Planta Topográfica/Planimétrica ou Planialtimétrica Georreferenciada 
+
+* Croqui de acesso e localização do imóvel (a partir do município mais próximo); 
+
+* Apresentar cópias das fichas de campo, utilizadas no inventário florestal e na cubagem.
+
+---
+
+* Placa de identificação 
+
+
+```{r echo=FALSE, fig.align='center', out.width='85%'}
+knitr::include_graphics(path = "area_sob_regime.jpg")
+```      
+
+\center {\scriptsize {\color{blue}Figura 13}: fonte IN nº007/2006} 
+
+## Considerações
+
+---
+
+* As parcelas deverão permanecer demarcadas e preservadas até a realização da vistoria da CPRH 
+
+* O corte e a colheita no Plano de Manejo Florestal Sustentável serão executados, preferencialmente, em talhões alternados 
+
+* Para a continuidade do Plano de Manejo Sustentável, após o final da rotação programada o interessado: 
+
+      
+    - Reformulação do PMS
+
+* Plano de Manejo Florestal Sustentável será aprovado para um ciclo de exploração de no mínimo 15 anos
+
+
+---
+
+
+* Autorização para a exploração será conferida por talhão e terá a validade de um ano, podendo ser renovada 
+
+* Uma nova autorização a CPRH deverá ser requerida para dar início à exploração do próximo talhão
+
+* Talhões deverão ter aproximadamente a mesma dimensão
+
+* No prazo máximo de 30 dias após o vencimento da autorização para a exploração de cada talhão
+
+   
+    - Relatório de Atividade do Plano de Manejo Sustentável 
+
+## Bahia
+
+---
+
+* INEMA (Instituto do Meio Ambiente e Recursos Hídricos)
+
+* Portaria INEMA nº 11.292 de 13 de fevereiro de 2016
+
+```{r echo=FALSE, fig.align='center', out.width='45%'}
+knitr::include_graphics(path = "inema.jpg")
+```      
+
+\center {\scriptsize {\color{blue}Figura 14}: inema.ba.gov.br} 
+
+### Procedimentos
+
+* Documentação pessoal do requerente
+
+* Comprovante de representação legal do interessado
+
+* Comprovante de pagamento da remuneração fixada no Regulamento da Lei Estadual nº 10.431/2006
+
+* Quando couber:
+  
+    
+    - Comprovante de regularidade da Reserva Legal
+    - Cópia da licença ambiental anterior
+    - Comprovante de Registro no Cadastro Estadual de Atividades Potencialmente            - Degradadoras ou Utilizadoras de Recursos Ambientais
+    - Inscrição no Cadastro Estadual Florestal de Imóveis Rurais
+
+* Documentos comprobatórios de propriedade ou posse do imóvel
+
+### Aprovação do Plano de Manejo Florestal Sustentável
+
+
+* Projeto Técnico 
+    
+    
+    - atual ocupação econômica do imóvel, 
+    - fotografias representativas do local e plantas de localização
+    - vegetação e uso do solo;
+
+* Inventário Florestal
+
+
+    - erro máximo de 20% para uma probabilidade de 90% 
+    - Inventário Florestal Contínuo
+    - Amostragem (Caatinga e no Cerrado sugere-se áreas entre 400 e 600 m²)
+
+* Plano de Manejo Florestal
+
+### Execução das etapas do Plano de Manejo Florestal Sustentável
+
+* Projeto Técnico incluindo material cartográfico georreferenciado 
+
+    
+    - área de abrangência do Plano de Manejo Florestal Sustentável 
+    - talhões que serão explorados; 
+
+* Plano de Execução
+
+* Documentação comprobatória da averbação ou registro do Plano de Manejo no cartório competente
+
+---
+
+* Plano de Execução do próximo talhão
+* Relatório do talhão anterior
+
+* Certificado do registro de atividade florestal – RAF do ano em exercício
+
+* Formulário de Caracterização do Empreendimento
+
+## Paraíba
+
+---
+
+* Alteração a redação do parágrafo único do art. 7º da lei nº 9.857/12 pela lei estadual nº 11.153/2018
+
+* Autorizado o corte de algaroba pelo produtor sem a necessidade de um plano de manejo autorizado pela SUDEMA
+
+* Justificativa
+
+
+    - Desburocratização do processo
+    - Multas e apreensões aos pequenos produtores quando iam cortar indivíduos invasores em suas propriedades, sem a realização do plano de manejo 
+
+
+# Análise Econômica
+
+Simulada no estado do Pernambuco em um algarobal espontâneo.
+
+* Receita Esperada
+
+* Custos
+
+* Resultados
+
+```{r echo=FALSE, fig.align='center', out.width='36%'}
+knitr::include_graphics(path = "analise_economica_1.jpg")
+```      
+
+\center {\scriptsize {\color{blue}Figura 15}: Vagem de algaroba: researchgate.net. Lenha de algaroba:	anicerpro.com.br} 
+
+
+# Exemplos reais
+
+Pequenos produtores do Estado do Pernambuco
+
+
+```{r echo=FALSE, fig.align='center', out.width='80%'}
+knitr::include_graphics(path = "municipios.jpg")
+```      
+
+\center {\scriptsize {\color{blue}Figura 16}:  Municípios onde foram feitas as entrevistas (Riegelhaupt et al., 2014).} 
+
+## Riegelhaupt, et al., 2014
+
+---
+
+* 3 usos principais
+
+
+```{r echo=FALSE, fig.align='center', out.width='70%'}
+knitr::include_graphics(path = "exemplos_reais_1.jpg")
+```      
+
+\center {\scriptsize {\color{blue}Figura 17}: Vagens, lenhas e mourões de algaroba (Riegelhaupt, et al., 2014).}
+
+---
+
+* Manejo
+
+```{r echo=FALSE, fig.align='center', out.width='100%'}
+knitr::include_graphics(path = "exemplos_reais_2.jpg")
+```      
+
+\center {\scriptsize {\color{blue}Figura 18}: Corte raso e corte seletivo de algaroba (Riegelhaupt, et al., 2014).}
+
+---
+
+* Dinâmica dos algarobais
+
+* Problemas
+
+* Destinação dos produtos
+
+* Sistemas de produção e venda da lenha
+
+
+## RIOCON
+
+---
+
+Empresa RIOCON
+
+```{r echo=FALSE, fig.align='center', out.width='70%'}
+knitr::include_graphics(path = "eco_carvao.jpg")
+```      
+
+\center {\scriptsize {\color{blue}Figura 19}: Produtos relacionados a algaroba comercializados pela riocon: riocon.com.br}
+
+---
+
+Fábrica de rações RIOCON 2005
+
+```{r echo=FALSE, fig.align='center', out.width='70%'}
+knitr::include_graphics(path = "sacas.jpg")
+```      
+
+\center {\scriptsize {\color{blue}Figura 20}: Fábrica de rações em Manoel Vitorino, BA (Lima, 2006).}
+
+---
+
+Estudos acerca do desbaste da algaroba
+
+```{r echo=FALSE, fig.align='center', out.width='80%'}
+knitr::include_graphics(path = "lima.jpg")
+```      
+
+\center {\scriptsize {\color{blue}Figura 21}: Lima, 2006.}
+
+# Conclusão
+
+---
+
+* Legislação algaroba
+
+\  
+
+* Análise econômica elaborada
+
+\  
+
+* Impactos causados pela espécie
+
+
+# Referências
+
+---
+
+BARROS, Bruno Coelho de et al. Volumetria e sobrevivência de espécies nativas e exóticas no polo gesseiro do Araripe, PE. **Ciência Florestal** [online]. 2010, v. 20, n. 4.
+
+CPRH Instrução Normativa CPRH Nº 007/2006 Disciplina os procedimentos da CPRH referentes à aprovação da localização da Reserva Legal em propriedades e posses rurais; à autorização para supressão de vegetação e intervenção em Áreas de Preservação Permanente e à autorização para o desenvolvimento das atividades florestais no Estado de Pernambuco. Disponível em: <http://www.cprh.pe.gov.br/ARQUIVOS_ANEXO/IN%20007%202006;140606;20100
+420.pdf> Acesso em: 15 mar. 2022.
+
+CUNHA, Luis Henrique; GOMES, Ramonildes Alves. A trajetória da algaroba no semiárido nordestino: dilemas políticos e científicos. **Raízes: Revista de Ciências Sociais e Econômicas**, v. 32, n. 1, p. 72-95, 2012.
+
+---
+
+INEMA PORTARIA INEMA Nº 11.292 Define os documentos e estudos necessários para requerimento junto ao INEMA dos atos administrativos para regularidade ambiental de empreendimentos e atividades no Estado da Bahia, revoga a Portaria INEMA n° 8578/2014 e dá outras providências. Disponível em: <https://cdn.agenciapeixevivo.org.br/media/2020/02/Portaria_INEMA_n_11.292_2016consolidada.pdf> Acesso em: 15 mar. 2022.
+
+INEMA Site do Instituto do Meio Ambiente e Recursos Hídricos. Modelo de Inventário Florestal, 2016. Disponível em: <http://www.inema.ba.gov.br/wp-content/files/Inventario_florestal_atualizado_22022016.pdf> Acesso em: 15 mar. 2022.
+
+LIMA, P. C. F. Manejo de áreas individuais de algaroba: relatório final. **Embrapa Semiárido-Outras publicações científicas (ALICE)**, 2005.
+
+---
+
+LIMA, Paulo César Fernandes. Manejo de áreas individuais de algaroba: plano de manejo. **Embrapa Semiárido-Outras publicações científicas (ALICE)**, 2006.
+
+NOBREGA FILHO, N. W. da. **Lei Ordinária 11153/2018**. Disponível em: http://www.al.pb.leg.br/leis-estaduais. Acesso em: 28 mar. 2022.
+
+RIEGELHAUPT, E. et al. Manejo racional dos algarobais espontâneos para o combate à desertificação no Sertão de Pernambuco. **S. l.: APNE**, 2014.
+
+
