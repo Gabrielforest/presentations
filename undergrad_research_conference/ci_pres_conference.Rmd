@@ -1,8 +1,8 @@
 ---
-title: "Conferência online UFSCar - 2022"
+title: "Conferência UFSCar - 2023"
 institute: UFSCar
 author: "Gabriel de Freitas Pereira"
-date: "22/03/2022"
+date: "02/06/2023"
 output: 
   beamer_presentation:
     incremental: false
@@ -141,7 +141,7 @@ knitr::include_graphics("slide_images/pres_pts_collaborators.PNG")
 ### Variáveis 
 
 
-```{r echo=FALSE, out.width='85%', fig.align='center'}
+```{r echo=FALSE, out.width='75%', fig.align='center'}
 knitr::include_graphics("slide_images/daiana_variables.jpg")
 ```
 
@@ -149,14 +149,14 @@ knitr::include_graphics("slide_images/daiana_variables.jpg")
 
 ---
 
-```{r echo=FALSE, out.width='56%', fig.align='center'}
+```{r echo=FALSE, out.width='52%', fig.align='center'}
 knitr::include_graphics("slide_images/variables_vif.jpg")
 ```
 
 \center {\scriptsize {\color{blue}Figura 7}: Variáveis VIF.}
 
 
-# Resultados
+# Resultados e Discussão
 
 ## Usando Variáveis Tourne et al. 2019
 
@@ -169,7 +169,27 @@ knitr::include_graphics("slide_images/filt_geog_dai.PNG")
 \center {\scriptsize {\color{blue}Figura 8}: Probabilidade de ocorrência da Bertholletia excelsa numa escala de 0 a 1000 adequadas para a modelagem à resolução 2.5 arco minutos usando a filtragem geográfica.}
 
 
-## Usando Variáveis VIF
+## Melhor Modelo Encontrado
+
+---
+
+
+```{r echo=FALSE, out.width='100%', fig.align='center'}
+knitr::include_graphics("slide_images/best_model.png")
+```
+
+\center {\scriptsize {\color{blue}Figura 9}: Modelo usando filtragem geográfica + ambiental à resolução 2.5 arco minutos, e suas projeções futuras nos cenários SSP245 e SSP585 para o período médio de 2050.}
+
+---
+
+```{r echo=FALSE, out.width='80%', fig.align='center'}
+knitr::include_graphics("slide_images/variable_importance_plot.png")
+```
+
+\center {\scriptsize {\color{blue}Figura 10}: Variáveis que mais impactaram o melhor modelo.}
+
+
+## Outros modelos usando Variáveis VIF
 
 ---
 
@@ -177,7 +197,7 @@ knitr::include_graphics("slide_images/filt_geog_dai.PNG")
 knitr::include_graphics("maps_table_img.png")
 ```
 
-\center {\scriptsize {\color{blue}Figura 9}: Resultados dos Modelos}
+\center {\scriptsize {\color{blue}Figura 11}: Resultados dos Modelos.}
 
 
 ---
@@ -186,20 +206,16 @@ knitr::include_graphics("maps_table_img.png")
 knitr::include_graphics("maps2_table_img.png")
 ```
 
-\center {\scriptsize {\color{blue}Figura 10}: Resultados dos Modelos}
-
-
-## Melhor Modelo Encontrado
+\center {\scriptsize {\color{blue}Figura 12}: Resultados dos Modelos.}
 
 ---
 
-[\color{blue}link dashboard](https://gabrielforest.github.io/dashboard_best_model_result/)
+[ link com todos os resultados \color{blue}https://gabrielforest.github.io/maps_grid/](https://gabrielforest.github.io/maps_grid/)
 
-```{r echo=FALSE, out.width='100%', fig.align='center'}
-knitr::include_graphics("slide_images/best_model.png")
+```{r echo=FALSE, out.width='100%'}
+knitr::include_graphics("slide_images/print_painel.png")
 ```
-
-\center {\scriptsize {\color{blue}Figura 11}: Modelo usando filtragem geográfica + ambiental à resolução 2.5 arco minutos, e suas projeções futuras nos cenários SSP245 e SSP585 para o período médio de 2050.}
+\center {\scriptsize {\color{blue}Figura 13}: Dashboard com todos os resultados.}
 
 
 # Agradecimentos
