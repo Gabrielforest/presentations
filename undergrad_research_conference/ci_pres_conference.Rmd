@@ -132,6 +132,14 @@ knitr::include_graphics("slide_images/pres_pts_collaborators.PNG")
         - Geográfica
         
         - Geográfica + Ambiental 
+  
+  \item Variações:
+        
+        - Pan-Amazônia / Amazônia brasileira
+        
+        - Registros de geoglifos e terra-preta 
+        
+        - 2 cenários futuros
 
 
 \end{itemize}
@@ -162,9 +170,12 @@ knitr::include_graphics("slide_images/variables_vif.jpg")
 
 ---
 
+AUC = 0.87
+
 ```{r echo=FALSE, out.width='75%', fig.align='center'}
 knitr::include_graphics("slide_images/filt_geog_dai.PNG")
 ```
+
 
 \center {\scriptsize {\color{blue}Figura 8}: Probabilidade de ocorrência da Bertholletia excelsa numa escala de 0 a 1000 adequadas para a modelagem à resolução 2.5 arco minutos usando a filtragem geográfica.}
 
@@ -173,6 +184,7 @@ knitr::include_graphics("slide_images/filt_geog_dai.PNG")
 
 ---
 
+AUC = 0.94
 
 ```{r echo=FALSE, out.width='100%', fig.align='center'}
 knitr::include_graphics("slide_images/best_model.png")
