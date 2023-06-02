@@ -1,5 +1,5 @@
 ---
-title: "Conferência UFSCar - 2023"
+title: "Congresso UFSCar - 2023"
 institute: UFSCar
 author: "Gabriel de Freitas Pereira"
 date: "02/06/2023"
