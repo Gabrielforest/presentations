@@ -92,9 +92,9 @@ knitr::include_graphics("slide_images/logo_embrapa.jpg")
 
 - Criar um mapa preciso para determinar adequabilidade da espécie;
 
-- Avaliar como os humanos influenciam a disseminação das sementes de castanheira e seu desenvolvimento;
+- Avaliar a influência dos humanos na disseminação das sementes de castanheira e por conseguinte sua distribuição;
 
-- Prever como as mudanças climáticas afetarão a capacidade de crescimento no futuro e identificar áreas que precisam ser conservadas.
+- Prever como as mudanças climáticas afetarão a adequabilidade no futuro e identificar as áreas prioritárias para conservação.
 
 
 ## Pontos de Ocorrência da Espécie
@@ -147,7 +147,7 @@ knitr::include_graphics("slide_images/pres_pts_collaborators.PNG")
 
   \item Variações:
         
-        - Pan-Amazônia / Amazônia brasileira
+        - Pan-Amazônia ampliada / Pan-Amazônia
         
         - Registros de geoglifos e terra-preta 
         
